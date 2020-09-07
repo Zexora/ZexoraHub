@@ -11,5 +11,5 @@ if game == p1 then
   end
 
 elseif game == p2 then
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zexora/ZexoraHub/master/Games/PrisonGames/PrisonLife.lua"))()
 end
