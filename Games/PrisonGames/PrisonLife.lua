@@ -205,3 +205,94 @@ end
 end,
 Options = {"M9", "Remington 870", "M4A1", "Ak47", "Knife", "Hammer"}
 })
+
+Guns.Button({
+Text = "Mod M9",
+	Callback = function()
+Gun = "M9"
+
+loadstring(game:HttpGet("https://pastebin.com/raw/NffGLjYX",true))();
+	end
+})
+
+
+Guns.Button({
+Text = "Mod Remington 870",
+	Callback = function()
+
+local Gun1 = "Remington 870"
+			
+			local player = game:GetService("Players").LocalPlayer
+			local gun1 = player.Backpack:FindFirstChild(Gun1)
+			local GunStats1 = require(gun1:FindFirstChild("GunStates"))
+			GunStats1["Damage"] = 999
+			GunStats1["MaxAmmo"] = math.huge
+			GunStats1["StoredAmmo"] = math.huge
+			GunStats1["FireRate"] = 0.05
+			GunStats1["AmmoPerClip"] = math.huge
+			GunStats1["Range"] = 5000
+			GunStats1["ReloadTime"] = 0.05
+			GunStats1["Bullets"] = 10
+			GunStats1["AutoFire"] = true
+	end
+})
+
+Guns.Button({
+Text = "Mod Ak47",
+	Callback = function()
+local Gun2 = "AK-47"
+			
+			local player = game:GetService("Players").LocalPlayer
+			local gun2 = player.Backpack:FindFirstChild(Gun2)
+			local GunStats2 = require(gun2:FindFirstChild("GunStates"))
+			GunStats2["Damage"] = 999
+			GunStats2["MaxAmmo"] = math.huge
+			GunStats2["StoredAmmo"] = math.huge
+			GunStats2["FireRate"] = 0.05
+			GunStats2["AmmoPerClip"] = math.huge
+			GunStats2["Range"] = 5000
+			GunStats2["ReloadTime"] = 0.05
+			GunStats2["Bullets"] = 10
+			GunStats2["AutoFire"] = true
+	end
+})
+
+Guns.Button({
+Text = "Mod M4A1",
+	Callback = function()
+			local Gun3 = "M4A1"
+			
+			local player = game:GetService("Players").LocalPlayer
+			local gun3 = player.Backpack:FindFirstChild(Gun3)
+			local GunStats3 = require(gun3:FindFirstChild("GunStates"))
+			GunStats3["Damage"] = 999
+			GunStats3["MaxAmmo"] = math.huge
+			GunStats3["StoredAmmo"] = math.huge
+			GunStats3["FireRate"] = 0.05
+			GunStats3["AmmoPerClip"] = math.huge
+			GunStats3["Range"] = 5000
+			GunStats3["ReloadTime"] = 0.05
+			GunStats3["Bullets"] = 10
+			GunStats3["AutoFire"] = true
+	end
+})
+
+Guns.Button({
+Text = "Mod Tazer",
+	Callback = function()
+local Gun4 = "Tazer"
+			
+			local player = game:GetService("Players").LocalPlayer
+			local gun4 = player.Backpack:FindFirstChild(Gun4)
+			local GunStats4 = require(gun4:FindFirstChild("GunStates"))
+			GunStats4["Damage"] = 999
+			GunStats4["MaxAmmo"] = math.huge
+			GunStats4["StoredAmmo"] = math.huge
+			GunStats4["FireRate"] = 0.05
+			GunStats4["AmmoPerClip"] = math.huge
+			GunStats4["Range"] = 5000
+			GunStats4["ReloadTime"] = 0.05
+			GunStats4["Bullets"] = 10
+			GunStats4["AutoFire"] = true
+	end
+})
